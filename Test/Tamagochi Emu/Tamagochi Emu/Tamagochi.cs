@@ -42,17 +42,40 @@ using System.Threading.Tasks;
 //}
 class main
 {
-    static void Main()
+    static int Main()
     {
-
+        string command;
         Random rnd = new Random();
-        Tamagochi tamagochi = new Tamagochi("Leleknamepls",rnd.Next(5,10));
+
+        Console.WriteLine("What is the Tamagochi Called?");
+        Tamagochi tamagochi = new Tamagochi(Console.ReadLine(),rnd.Next(5,10));
         tamagochi.PrintDeets();
-        Tamagochi lelki = new Tamagochi("Leleknamepls", rnd.Next(5, 10));
-        Tamagochi tam998 = new Tamagochi("Leleknamepls", rnd.Next(5, 10));
-        Console.ReadKey();
-        Tamagochi.HowMany();
-        Console.ReadKey();
+
+        Console.WriteLine("What is the Tamagochi Called?");
+        Tamagochi tamagochi1 = new Tamagochi(Console.ReadLine(), rnd.Next(5, 10));
+        tamagochi1.PrintDeets();
+        Console.WriteLine("What is the Tamagochi Called?");
+        Tamagochi tamagochi2 = new Tamagochi(Console.ReadLine(), rnd.Next(5, 10));
+        tamagochi2.PrintDeets();
+
+        while (true)
+        {
+            Console.Write("Command:> ");
+            command = Console.ReadLine();
+            if (command == "tam -num")
+            {
+                Tamagochi.HowMany();
+            }
+            else if (command == "exit") {
+                Console.WriteLine("Exiting...");
+                return 1;
+            }
+            else
+            {
+                Console.WriteLine("Invalid Command!");
+                return 1;
+            }
+        }
         
     }
 }
