@@ -4,3 +4,9 @@ D:\Github\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\bin\Debug\Tamagochi Emu.exe
 D:\Github\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\bin\Debug\Tamagochi Emu.pdb
 D:\Github\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\obj\Debug\Tamagochi Emu.exe
 D:\Github\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\obj\Debug\Tamagochi Emu.pdb
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\bin\Debug\Tamagochi Emu.exe.config
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\obj\Debug\Tamagochi Emu.exe
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\obj\Debug\Tamagochi Emu.pdb
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\obj\Debug\Tamagochi Emu.csprojResolveAssemblyReference.cache
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\bin\Debug\Tamagochi Emu.exe
+C:\Users\Calavera\Documents\GitHub Repos\tam_emu\Test\Tamagochi Emu\Tamagochi Emu\bin\Debug\Tamagochi Emu.pdb
