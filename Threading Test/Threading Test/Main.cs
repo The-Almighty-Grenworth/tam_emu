@@ -37,6 +37,9 @@ class Mayan
                         Console.Write("x");
                     }
                 }
+                else if (temp == "time!") {
+                    Console.WriteLine(DateTime.Now.ToString("t"));
+                }
                 
             }
         }
