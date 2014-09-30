@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Class_Tamagochi.cs" />
     <Compile Include="Control.cs" />
+    <Compile Include="Parse_Input.cs" />
     <Compile Include="Toolkitcs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
