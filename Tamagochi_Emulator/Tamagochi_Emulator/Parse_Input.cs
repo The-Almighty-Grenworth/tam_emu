@@ -2,22 +2,25 @@
 
 class InputHandler {
     private static string input = "null";
+    private string temp;
 
     public int beginParse() {
         while (true) {
+            temp = input;
+            input = "null";
 
+            switch (temp) { 
+                case "exit":
+                    Console.WriteLine("terminating application...");
+                    return 1;
 
-
-
-
-            return 1;
+            }
         }
     }
 
-    public int listenForInput() { 
+    public void listenForInput() { 
         while (true) {
-        
-            return 1;
+            input = Console.ReadLine();
         }
     }
 
