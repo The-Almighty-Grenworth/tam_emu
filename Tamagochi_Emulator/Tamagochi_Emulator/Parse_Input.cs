@@ -4,7 +4,7 @@ class InputHandler {
     private static string input = "null";
     private string temp;
 
-    public int beginParse() {
+    public void beginParse() {
         while (true) {
             temp = input;
             input = "null";
@@ -12,7 +12,8 @@ class InputHandler {
             switch (temp) { 
                 case "exit":
                     Console.WriteLine("terminating application...");
-                    return 1;
+                    Control.Doomsday = true;
+                    break;
 
             }
         }
@@ -24,9 +25,6 @@ class InputHandler {
         }
     }
 
-    public string getInput() {
-        return input;
-    }
     public void resetInput() {
         input = "null";
     }
